@@ -14,6 +14,13 @@
 		DBFB2EF520C27ABD004FBB2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBFB2EF320C27ABD004FBB2F /* LaunchScreen.storyboard */; };
 		DBFB2F0020C27ABD004FBB2F /* checkworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFB2EFF20C27ABD004FBB2F /* checkworkTests.swift */; };
 		DBFB2F0B20C27ABD004FBB2F /* checkworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFB2F0A20C27ABD004FBB2F /* checkworkUITests.swift */; };
+		DBFB2F1920C27CA5004FBB2F /* batsu.png in Resources */ = {isa = PBXBuildFile; fileRef = DBFB2F1820C27CA5004FBB2F /* batsu.png */; };
+		DBFB2F1B20C27CB1004FBB2F /* cicle.png in Resources */ = {isa = PBXBuildFile; fileRef = DBFB2F1A20C27CB1004FBB2F /* cicle.png */; };
+		DBFB2F1D20C27CBF004FBB2F /* flame.png in Resources */ = {isa = PBXBuildFile; fileRef = DBFB2F1C20C27CBF004FBB2F /* flame.png */; };
+		DBFB2F2520C284D1004FBB2F /* percent.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DBFB2F2420C284D0004FBB2F /* percent.jpeg */; };
+		DBFB2F2720C284D8004FBB2F /* maru.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DBFB2F2620C284D8004FBB2F /* maru.jpeg */; };
+		DBFB2F2920C284E1004FBB2F /* kyudou.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DBFB2F2820C284E1004FBB2F /* kyudou.jpeg */; };
+		DBFB2F2F20C290B9004FBB2F /* FromWhereYouAre.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DBFB2F2E20C290B9004FBB2F /* FromWhereYouAre.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		DBFB2F0620C27ABD004FBB2F /* checkworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = checkworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBFB2F0A20C27ABD004FBB2F /* checkworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkworkUITests.swift; sourceTree = "<group>"; };
 		DBFB2F0C20C27ABD004FBB2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBFB2F1820C27CA5004FBB2F /* batsu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = batsu.png; sourceTree = "<group>"; };
+		DBFB2F1A20C27CB1004FBB2F /* cicle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cicle.png; sourceTree = "<group>"; };
+		DBFB2F1C20C27CBF004FBB2F /* flame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flame.png; sourceTree = "<group>"; };
+		DBFB2F2420C284D0004FBB2F /* percent.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = percent.jpeg; sourceTree = "<group>"; };
+		DBFB2F2620C284D8004FBB2F /* maru.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maru.jpeg; sourceTree = "<group>"; };
+		DBFB2F2820C284E1004FBB2F /* kyudou.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kyudou.jpeg; sourceTree = "<group>"; };
+		DBFB2F2E20C290B9004FBB2F /* FromWhereYouAre.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FromWhereYouAre.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +111,18 @@
 		DBFB2EE920C27ABA004FBB2F /* checkwork */ = {
 			isa = PBXGroup;
 			children = (
+				DBFB2F1820C27CA5004FBB2F /* batsu.png */,
 				DBFB2EEA20C27ABA004FBB2F /* AppDelegate.swift */,
 				DBFB2EEC20C27ABA004FBB2F /* ViewController.swift */,
+				DBFB2F1C20C27CBF004FBB2F /* flame.png */,
 				DBFB2EEE20C27ABA004FBB2F /* Main.storyboard */,
+				DBFB2F2E20C290B9004FBB2F /* FromWhereYouAre.ttf */,
 				DBFB2EF120C27ABD004FBB2F /* Assets.xcassets */,
+				DBFB2F2820C284E1004FBB2F /* kyudou.jpeg */,
+				DBFB2F2620C284D8004FBB2F /* maru.jpeg */,
+				DBFB2F1A20C27CB1004FBB2F /* cicle.png */,
 				DBFB2EF320C27ABD004FBB2F /* LaunchScreen.storyboard */,
+				DBFB2F2420C284D0004FBB2F /* percent.jpeg */,
 				DBFB2EF620C27ABD004FBB2F /* Info.plist */,
 			);
 			path = checkwork;
@@ -230,8 +251,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBFB2EF520C27ABD004FBB2F /* LaunchScreen.storyboard in Resources */,
+				DBFB2F2920C284E1004FBB2F /* kyudou.jpeg in Resources */,
+				DBFB2F2520C284D1004FBB2F /* percent.jpeg in Resources */,
+				DBFB2F2F20C290B9004FBB2F /* FromWhereYouAre.ttf in Resources */,
+				DBFB2F2720C284D8004FBB2F /* maru.jpeg in Resources */,
 				DBFB2EF220C27ABD004FBB2F /* Assets.xcassets in Resources */,
 				DBFB2EF020C27ABA004FBB2F /* Main.storyboard in Resources */,
+				DBFB2F1D20C27CBF004FBB2F /* flame.png in Resources */,
+				DBFB2F1B20C27CB1004FBB2F /* cicle.png in Resources */,
+				DBFB2F1920C27CA5004FBB2F /* batsu.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
